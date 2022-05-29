@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    margin-top:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .body{
+    background-image: url(/imgs/screenshot.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+  }
+   
+  .container {
+    min-height: 30vh;
+    width: 100%;
+    /* wall paper, the css folder cannot find the image within the css folder
+    do not make img large because the container contains the text*/ 
+
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+  }
+   
+  .navbar {
+    width: 100%;
+    text-align: center;
+    margin: 3rem;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(204, 194, 194);
+    background: gray;
+    background-size: 100% auto;
+    line-height: 40px;
+    /* This is where the text is the box that contains the text the is the background of the word */
+    
+  }
+
+  .nav {
+    flex: 1;
+    padding-left: 60px;
+  }
+   
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 50px;
+    
+    font-family: "Oswald", sans-serif;
+    background: transparent, black;
+  }
+
+  .nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sec2{
+    min-height: 250vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.555), transparent),
+  }
+
+  .alphsec{
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  
+  .alphdiv{
+    background-image: url(/imgs/rabbit.jpeg);
+    background-size: 100px;
+  }
